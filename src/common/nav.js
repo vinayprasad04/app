@@ -21,7 +21,7 @@ class Nav extends Component {
     render() {
         return (
             <div>
-            <li><Link to="/about" className={this.props.className}>{this.props.text}</Link> </li>
+            <li><Link to="/about" className={this.props.className}>{this.props.texta}</Link> </li>
                 {this.props.text}
             </div>
             );
