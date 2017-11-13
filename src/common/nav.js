@@ -20,10 +20,7 @@ class Nav extends Component {
     };
     render() {
         return (
-            <div>
-            <li><Link to="/about" className={this.props.className}>{this.props.texta}</Link> </li>
-                {this.props.text}
-            </div>
+                <Link to={this.props.href} className={this.props.className}>{this.props.text}</Link>
             );
     }
 }

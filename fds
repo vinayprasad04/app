@@ -1,0 +1,350 @@
+warning: LF will be replaced by CRLF in src/pages/home.js.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 18552b3..4ac525a 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -2,9 +2,11 @@[m
+ <project version="4">[m
+   <component name="ChangeListManager">[m
+     <list default="true" id="52ff4a1d-2f60-4cf9-b773-6264b92f0535" name="Default" comment="">[m
+[31m-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />[m
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/dropdown.js" afterPath="$PROJECT_DIR$/src/common/dropdown.js" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/header.js" afterPath="$PROJECT_DIR$/src/common/header.js" />[m
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/nav.js" afterPath="$PROJECT_DIR$/src/common/nav.js" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/home.js" afterPath="$PROJECT_DIR$/src/pages/home.js" />[m
+     </list>[m
+     <ignored path="$PROJECT_DIR$/.tmp/" />[m
+     <ignored path="$PROJECT_DIR$/temp/" />[m
+[36m@@ -18,11 +20,11 @@[m
+   </component>[m
+   <component name="FileEditorManager">[m
+     <leaf>[m
+[31m-      <file leaf-file-name="nav.js" pinned="false" current-in-tab="true">[m
+[32m+[m[32m      <file leaf-file-name="nav.js" pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/src/common/nav.js">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="336">[m
+[31m-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />[m
+[32m+[m[32m            <state relative-caret-position="528">[m
+[32m+[m[32m              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />[m
+               <folding>[m
+                 <element signature="e#0#38#0" expanded="true" />[m
+               </folding>[m
+[36m@@ -30,11 +32,11 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">[m
+[32m+[m[32m      <file leaf-file-name="header.js" pinned="false" current-in-tab="true">[m
+         <entry file="file://$PROJECT_DIR$/src/common/header.js">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="552">[m
+[31m-              <caret line="23" column="83" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="83" />[m
+[32m+[m[32m            <state relative-caret-position="240">[m
+[32m+[m[32m              <caret line="46" column="80" lean-forward="false" selection-start-line="46" selection-start-column="80" selection-end-line="46" selection-end-column="80" />[m
+               <folding>[m
+                 <element signature="e#0#38#0" expanded="true" />[m
+               </folding>[m
+[36m@@ -42,13 +44,13 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">[m
+[31m-        <entry file="file://$PROJECT_DIR$/src/pages/home.js">[m
+[32m+[m[32m      <file leaf-file-name="dropdown.js" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/src/common/dropdown.js">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="100">[m
+[31m-              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />[m
+[32m+[m[32m            <state relative-caret-position="-144">[m
+[32m+[m[32m              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />[m
+               <folding>[m
+[31m-                <element signature="e#3316#5508#0" expanded="false" />[m
+[32m+[m[32m                <element signature="e#0#38#0" expanded="true" />[m
+               </folding>[m
+             </state>[m
+           </provider>[m
+[36m@@ -57,8 +59,8 @@[m
+       <file leaf-file-name="cardbox.js" pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/src/common/cardbox.js">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="72">[m
+[31m-              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />[m
+[32m+[m[32m            <state relative-caret-position="168">[m
+[32m+[m[32m              <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="55" />[m
+               <folding />[m
+             </state>[m
+           </provider>[m
+[36m@@ -103,11 +105,11 @@[m
+         <option value="$PROJECT_DIR$/src/common/banner.js" />[m
+         <option value="$PROJECT_DIR$/src/common/projects.js" />[m
+         <option value="$PROJECT_DIR$/src/root.js" />[m
+[31m-        <option value="$PROJECT_DIR$/src/common/dropdown.js" />[m
+[31m-        <option value="$PROJECT_DIR$/src/pages/home.js" />[m
+         <option value="$PROJECT_DIR$/src/common/cardbox.js" />[m
+[31m-        <option value="$PROJECT_DIR$/src/common/header.js" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/src/pages/home.js" />[m
+         <option value="$PROJECT_DIR$/src/common/nav.js" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/src/common/dropdown.js" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/src/common/header.js" />[m
+       </list>[m
+     </option>[m
+   </component>[m
+[36m@@ -234,12 +236,12 @@[m
+       <workItem from="1510203280578" duration="20704000" />[m
+       <workItem from="1510293101609" duration="10034000" />[m
+       <workItem from="1510377448995" duration="642000" />[m
+[31m-      <workItem from="1510415200372" duration="4985000" />[m
+[32m+[m[32m      <workItem from="1510415200372" duration="16757000" />[m
+     </task>[m
+     <servers />[m
+   </component>[m
+   <component name="TimeTrackingManager">[m
+[31m-    <option name="totallyTimeSpent" value="56811000" />[m
+[32m+[m[32m    <option name="totallyTimeSpent" value="68583000" />[m
+   </component>[m
+   <component name="ToolWindowManager">[m
+     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />[m
+[36m@@ -443,48 +445,48 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/src/common/dropdown.js">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/pages/home.js">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="34">[m
+[31m-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="19" />[m
+[32m+[m[32m        <state relative-caret-position="800">[m
+[32m+[m[32m          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />[m
+           <folding>[m
+[31m-            <element signature="e#0#38#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#3316#5508#0" expanded="false" />[m
+           </folding>[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/src/common/cardbox.js">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/common/nav.js">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="72">[m
+[31m-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />[m
+[31m-          <folding />[m
+[32m+[m[32m        <state relative-caret-position="528">[m
+[32m+[m[32m          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />[m
+[32m+[m[32m          <folding>[m
+[32m+[m[32m            <element signature="e#0#38#0" expanded="true" />[m
+[32m+[m[32m          </folding>[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/src/pages/home.js">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/common/cardbox.js">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="100">[m
+[31m-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />[m
+[31m-          <folding>[m
+[31m-            <element signature="e#3316#5508#0" expanded="false" />[m
+[31m-          </folding>[m
+[32m+[m[32m        <state relative-caret-position="168">[m
+[32m+[m[32m          <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="55" />[m
+[32m+[m[32m          <folding />[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/src/common/header.js">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/common/dropdown.js">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="552">[m
+[31m-          <caret line="23" column="83" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="83" />[m
+[32m+[m[32m        <state relative-caret-position="-144">[m
+[32m+[m[32m          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />[m
+           <folding>[m
+             <element signature="e#0#38#0" expanded="true" />[m
+           </folding>[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/src/common/nav.js">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/common/header.js">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="336">[m
+[31m-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />[m
+[32m+[m[32m        <state relative-caret-position="240">[m
+[32m+[m[32m          <caret line="46" column="80" lean-forward="false" selection-start-line="46" selection-start-column="80" selection-end-line="46" selection-end-column="80" />[m
+           <folding>[m
+             <element signature="e#0#38#0" expanded="true" />[m
+           </folding>[m
+[1mdiff --git a/src/common/dropdown.js b/src/common/dropdown.js[m
+[1mindex bcef47a..0cd4358 100644[m
+[1m--- a/src/common/dropdown.js[m
+[1m+++ b/src/common/dropdown.js[m
+[36m@@ -1,5 +1,14 @@[m
+ import React,{Component} from 'react';[m
+ import {Link} from 'react-router-dom';[m
+[32m+[m[32m//<Dropdown name="Portfolio"/>[m
+[32m+[m[32m//<Dropdown name="Blog"/>[m
+[32m+[m[32m    //<Dropdown name=" Other Pages"/>[m
+[32m+[m
+[32m+[m[32m//<Link to="/about" className="dropdown-item"> {this.props.sublinks}</Link>[m
+[32m+[m[32m//<a className="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>[m
+[32m+[m[32m//<a className="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>[m
+[32m+[mwarning: LF will be replaced by CRLF in .idea/workspace.xml.
+The file will have its original line endings in your working directory.
+[32m//<a className="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>[m
+[32m+[m[32m//<a className="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>[m
+ [m
+ [m
+ class Dropdown extends Component {[m
+[36m@@ -14,18 +23,31 @@[m [mclass Dropdown extends Component {[m
+         const currentState = this.state.active;[m
+         this.setState({ active: !currentState });[m
+     };[m
+[32m+[m
+[32m+[m
+[32m+[m
+     render() {[m
+[32m+[m[32m        if (this.props.sublinklink) {[m
+[32m+[m
+[32m+[m[32m            var allSublinks = this.props.sublinklink.map((ob) => {[m
+[32m+[m[32m                return ([m
+[32m+[m[32m                    <Link to={ob.subhref} className="dropdown-item">{ob.sublinktext}</Link>[m
+[32m+[m[32m                )[m
+[32m+[m[32m            });[m
+[32m+[m[32m        }[m
+[32m+[m[32m        else{[m
+[32m+[m
+[32m+[m[32m        }[m
+[32m+[m
+[32m+[m
+[32m+[m
+         return ([m
+                 <li className={this.state.active ? 'dropdown show': 'dropdown'}>[m
+                     <a onClick={this.toggleClass} className="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" >[m
+                         {this.props.name}[m
+                     </a>[m
+                     <div  className={this.state.active ? 'dropdown-menu dropdown-menu-right show': 'dropdown-menu dropdown-menu-right'} aria-labelledby="navbarDropdownPortfolio">[m
+[31m-                        <Link to="/about" className="dropdown-item">1 Column Portfolio</Link>[m
+[31m-                        <a className="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>[m
+[31m-                        <a className="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>[m
+[31m-                        <a className="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>[m
+[31m-                        <a className="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>[m
+[32m+[m[32m                        {allSublinks}[m
+                     </div>[m
+                 </li>[m
+         );[m
+[1mdiff --git a/src/common/header.js b/src/common/header.js[m
+[1mindex ec7aeb0..7d894e6 100644[m
+[1m--- a/src/common/header.js[m
+[1m+++ b/src/common/header.js[m
+[36m@@ -1,32 +1,63 @@[m
+ import React,{Component} from 'react';[m
+ import Nav from './nav';[m
+ import {Link} from 'react-router-dom';[m
+[32m+[m[32mimport Dropdown from "./dropdown";[m
+ [m
+ class Header extends Component {[m
+[32m+[m
+     constructor(props){[m
+[31m-        super(props)[m
+[31m-        this.state={[m
+[32m+[m[32m        super(props);[m
+[32m+[m[32m        this.state = {[m
+             allNavArr:[[m
+[31m-                {className:"nav-link", href:"/home", text:"Home"},[m
+[31m-                {className:"nav-link", href:"/about", text:"About"},[m
+[31m-                {className:"nav-link", href:"/about", text:"Services"},[m
+[31m-                {className:"nav-link", href:"/about", text:"Contact"},[m
+[31m-                {className:"nav-link", href:"/about", text:"About"},[m
+[31m-                {className:"nav-link", href:"/about", text:"About"},[m
+[32m+[m[32m                {className:"nav-link", href:"/home", text:"Home", hasdropdown:""},[m
+[32m+[m[32m                {className:"nav-link", href:"/about", text:"About", hasdropdown:""},[m
+[32m+[m[32m                {className:"nav-link", href:"/about", text:"Services", hasdropdown:""},[m
+[32m+[m[32m                {className:"nav-link", href:"/about", text:"Contact", hasdropdown:""},[m
+[32m+[m
+[32m+[m[32m                {className:"nav-link dropdown-toggle", href:"#", text:"Portfolio", hasdropdown:"dropdown",[m
+[32m+[m[32m                    sublinks:[[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"2 Column Portfolio"},[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"3 Column Portfolio"},[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"4 Column Portfolio"},[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"Single Portfolio Item"}[m
+[32m+[m[32m                        ]},[m
+[32m+[m[32m                {className:"nav-link dropdown-toggle", href:"#", text:"Blog", hasdropdown:"dropdown",[m
+[32m+[m[32m                    sublinks:[[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"2 Column Blog"},[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"3 Column Blog"},[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"4 Column Blog"},[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"Single Blog Item"}[m
+[32m+[m[32m                        ]},[m
+[32m+[m[32m                {className:"nav-link dropdown-toggle", href:"#", text:"Other Pages", hasdropdown:"dropdown",[m
+[32m+[m[32m                    sublinks:[[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"2 Column Other"},[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"3 Column Other"},[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"4 Column Other"},[m
+[32m+[m[32m                        {subhref:"/about", sublinktext:"Single Other Item"}[m
+[32m+[m[32m                        ]},[m
+             ][m
+         }[m
+     }[m
+[31m-//<Nav/>[m
+ [m
+         render() {[m
+[31m-            var allNavList = this.state.allNavArr.map((objb) => {[m
+[32m+[m
+[32m+[m[32m            var allNavList = this.state.allNavArr.map((objb, i) => {[m
+[32m+[m[32m                if(objb.hasdropdown === "dropdown"){[m
+                 return ([m
+[31m-                    <Nav className={objb.title} href={objb.desc} text={objb.desc}/>[m
+[31m-                )[m
+[32m+[m[32m                        <Dropdown name ={objb.text} sublinklink ={objb.sublinks}/>[m
+[32m+[m
+[32m+[m[32m                    )[m
+[32m+[m[32m                }[m
+[32m+[m[32m                else{[m
+[32m+[m[32m                return ([m
+[32m+[m[32m                    <li><Nav className={objb.className} href={objb.href} text={objb.text} /></li>[m
+[32m+[m[32m                    )[m
+[32m+[m[32m                }[m
+ [m
+[31m-            });[m
+ [m
+ [m
+[32m+[m[32m            });[m
+[32m+[m
+ [m
+     return ([m
+             <div className="headerOuter">[m
+[1mdiff --git a/src/common/nav.js b/src/common/nav.js[m
+[1mindex 78508d9..a97ebe2 100644[m
+[1m--- a/src/common/nav.js[m
+[1m+++ b/src/common/nav.js[m
+[36m@@ -20,10 +20,7 @@[m [mclass Nav extends Component {[m
+     };[m
+     render() {[m
+         return ([m
+[31m-            <div>[m
+[31m-            <li><Link to="/about" className={this.props.className}>{this.props.texta}</Link> </li>[m
+[31m-                {this.props.text}[m
+[31m-            </div>[m
+[32m+[m[32m                <Link to={this.props.href} className={this.props.className}>{this.props.text}</Link>[m
+             );[m
+     }[m
+ }[m
+[1mdiff --git a/src/pages/home.js b/src/pages/home.js[m
+[1mindex 05e5609..acaa1de 100644[m
+[1m--- a/src/pages/home.js[m
+[1m+++ b/src/pages/home.js[m
+[36m@@ -27,8 +27,8 @@[m
+ [m
+        var cardList = this.state.cardsArr.map((obj)=>{[m
+            return ([m
+[31m-               <div className = "col-lg-4 mb-4">[m
+[31m-           <Card title = {obj.title} desc = {obj.desc}/>[m
+[32m+[m[32m           <div className = "col-lg-4 mb-4">[m
+[32m+[m[32m               <Card title = {obj.title} desc = {obj.desc}/>[m
+            </div>)[m
+        })[m
+ [m
+warning: LF will be replaced by CRLF in src/common/header.js.
+The file will have its original line endings in your working directory.

@@ -1,31 +1,62 @@
 import React,{Component} from 'react';
 import Nav from './nav';
 import {Link} from 'react-router-dom';
+import Dropdown from "./dropdown";
 
 class Header extends Component {
+
     constructor(props){
-        super(props)
-        this.state={
+        super(props);
+        this.state = {
             allNavArr:[
-                {className:"nav-link", href:"/home", text:"Home"},
-                {className:"nav-link", href:"/about", text:"About"},
-                {className:"nav-link", href:"/about", text:"Services"},
-                {className:"nav-link", href:"/about", text:"Contact"},
-                {className:"nav-link", href:"/about", text:"About"},
-                {className:"nav-link", href:"/about", text:"About"},
+                {className:"nav-link", href:"/home", text:"Home", hasdropdown:""},
+                {className:"nav-link", href:"/about", text:"About", hasdropdown:""},
+                {className:"nav-link", href:"/about", text:"Services", hasdropdown:""},
+                {className:"nav-link", href:"/about", text:"Contact", hasdropdown:""},
+
+                {className:"nav-link dropdown-toggle", href:"#", text:"Portfolio", hasdropdown:"dropdown",
+                    sublinks:[
+                        {subhref:"/about", sublinktext:"2 Column Portfolio"},
+                        {subhref:"/about", sublinktext:"3 Column Portfolio"},
+                        {subhref:"/about", sublinktext:"4 Column Portfolio"},
+                        {subhref:"/about", sublinktext:"Single Portfolio Item"}
+                        ]},
+                {className:"nav-link dropdown-toggle", href:"#", text:"Blog", hasdropdown:"dropdown",
+                    sublinks:[
+                        {subhref:"/about", sublinktext:"2 Column Blog"},
+                        {subhref:"/about", sublinktext:"3 Column Blog"},
+                        {subhref:"/about", sublinktext:"4 Column Blog"},
+                        {subhref:"/about", sublinktext:"Single Blog Item"}
+                        ]},
+                {className:"nav-link dropdown-toggle", href:"#", text:"Other Pages", hasdropdown:"dropdown",
+                    sublinks:[
+                        {subhref:"/about", sublinktext:"2 Column Other"},
+                        {subhref:"/about", sublinktext:"3 Column Other"},
+                        {subhref:"/about", sublinktext:"4 Column Other"},
+                        {subhref:"/about", sublinktext:"Single Other Item"}
+                        ]},
             ]
         }
     }
-//<Nav/>
 
         render() {
-            var allNavList = this.state.allNavArr.map((objb) => {
+
+            var allNavList = this.state.allNavArr.map((objb, i) => {
+                if(objb.hasdropdown === "dropdown"){
                 return (
-                    <Nav className={objb.title} href={objb.desc} text={objb.desc}/>
-                )
+                        <Dropdown name ={objb.text} sublinklink ={objb.sublinks}/>
+
+                    )
+                }
+                else{
+                return (
+                    <li><Nav className={objb.className} href={objb.href} text={objb.text} /></li>
+                    )
+                }
+
+
 
             });
-
 
 
     return (

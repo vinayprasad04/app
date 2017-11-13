@@ -27,8 +27,8 @@
 
        var cardList = this.state.cardsArr.map((obj)=>{
            return (
-               <div className = "col-lg-4 mb-4">
-           <Card title = {obj.title} desc = {obj.desc}/>
+           <div className = "col-lg-4 mb-4">
+               <Card title = {obj.title} desc = {obj.desc}/>
            </div>)
        })
 
