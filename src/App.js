@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-
 import Root from './root';
-import './assets/css/bootstrap.min.css';
-import './assets/css/modern-business.css';
 import Header from './common/header';
 import Footer from './common/footer';
 
